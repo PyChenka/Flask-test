@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS mainmenu (
+id SERIAL PRIMARY KEY,
+title text NOT NULL,
+url text NOT NULL
+);
